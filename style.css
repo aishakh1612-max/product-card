@@ -1,0 +1,39 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 78px;
+    margin: 0;
+    text-align: center;
+    color: #515076;
+}
+.products-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-card {
+background-color: #F7F7FA;
+}
+.main-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #515076;
+}
+.button {
+    font-size: 20px;
+    line-height: 18px;
+    background-color:#515076;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.button-blue {
+    background-color: #6aa6ef;
+}
