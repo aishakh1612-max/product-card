@@ -62,6 +62,13 @@ body {
 .card-price-label {
   font-weight: 700;
 }
-.space {
+.card-price {
   margin-left: 180px;
+  color: #515076;
+}
+.card-price-label {
+  color: #515076;
+}
+.compound-list {
+  color: #515076;
 }
