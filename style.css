@@ -51,15 +51,17 @@ body {
   line-height: 18px;
   color: #515076;
 }
-.button {
-  font-size: 20px;
-  line-height: 18px;
-  background-color: #515076;
-  color: white;
-  border: 1px solid #000;
-  border-radius: 5px;
-  padding: 10px 20px;
+.card-price {
+  font-family: variable(--font-main);
+  font-weight: 700;
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  color: variable(--color-text);
 }
-.button-blue {
-  background-color: #6aa6ef;
+.card-price-label {
+  font-weight: 700;
+}
+.space {
+  margin-left: 180px;
 }
