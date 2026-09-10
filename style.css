@@ -10,7 +10,7 @@ body {
   line-height: 18px;
 }
 
-.catalog_title {
+.catalog__title {
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
@@ -25,7 +25,7 @@ body {
   padding: 0;
   margin: 0 auto;
 }
-.catalog_container {
+.catalog__container {
   background-image: url(images/bg.png);
   background-repeat: no-repeat;
   background-position: center top;
@@ -33,7 +33,7 @@ body {
   padding-top: 220px;
 }
 
-.catalog_title {
+.catalog__title {
   margin-top: 0;
   margin-bottom: 110px;
 }
@@ -47,13 +47,33 @@ body {
   padding: 25px;
   width: 100%;
 }
-.compound_name {
+.card__name {
+  font-size: 20px;
+  line-height: 27px;
+  color: #515076;
+  margin-top: 5px;
+}
+.card__category {
+  display: block;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a5a3b9;
+  text-transform: uppercase;
+}
+.card__description {
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.compound__name {
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
 }
-.compound_list {
+.compound__list {
   font-size: 13px;
   line-height: 18px;
   color: #515076;
@@ -65,21 +85,21 @@ body {
 .card__image {
   display: block;
 }
-.card_name {
+.card__name {
   font-size: 20px;
   line-height: 27px;
   color: #515076;
   margin-top: 5px;
 }
 
-.card_category {
+.card__category {
   display: block;
   font-size: 13px;
   line-height: 18px;
   color: #a5a3b9;
   text-transform: uppercase;
 }
-.card-description {
+.card__description {
   font-size: 13px;
   line-height: 18px;
   color: #515076;
@@ -102,17 +122,17 @@ body {
   padding: 0;
   margin: 0;
 }
-.card_price-container {
+.card__price-container {
   display: flex;
   gap: 180px;
 }
 
-.card_price-label {
+.card__price-label {
   font-weight: 700;
   color: #515076;
   margin-top: 25px;
 }
-.card-price {
+.card__price {
   color: #515076;
   margin-top: 25px;
 }
