@@ -33,10 +33,6 @@ body {
   padding-top: 220px;
 }
 
-.catalog__title {
-  margin-top: 0;
-  margin-bottom: 110px;
-}
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -45,12 +41,12 @@ body {
 .card {
   background-color: #f7f7fa;
   padding: 25px;
-  width: 100%;
+  width: 340px;
 }
 .card__name {
   font-size: 20px;
   line-height: 27px;
-  color: #515076;
+  color: #202020;
   margin-top: 5px;
 }
 .card__category {
