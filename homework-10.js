@@ -73,5 +73,3 @@ function renderLimitedCards(cardsArray) {
 }
 
 renderLimitedCards(products);
-
-дз 10
