@@ -12,7 +12,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="images/bg.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Cards</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <button id="change-color-all-cards">Cменить цвет всех карточек</button>
     <button id="change-color-first-card">Cменить цвет первой карточки</button>
@@ -132,10 +137,58 @@
         </ul>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Левая колонка: Логотип, описание и соцсети -->
+        <div class="footer-col footer-about">
+          <h3>Product Cards</h3>
+          <p>У Нас Самые Лучшие Продукты Для Кожи!</p>
+          <div class="social-links">
+            <img src="images/tg.svg" alt="Telegram" />
+            <img src="images/vk.svg" alt="VKontakte" />
+          </div>
+        </div>
+
+        <!-- Центральная колонка (Форма подписки) -->
+        <div class="footer-col footer-subscribe">
+          <p class="subscribe-title">Подпишись на наши акции:</p>
+          <form id="subscribeForm" class="subscribe-form">
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Введи Email..."
+              required
+            />
+            <button type="submit">Подписаться</button>
+          </form>
+        </div>
+
+        <!-- Правая колонка (Ссылки) -->
+        <div class="footer-col footer-links">
+          <h4>Быстрые ссылки</h4>
+          <nav>
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Магазин</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Нижняя линия и копирайт -->
+      <div class="footer-bottom">
+        <hr />
+        <p>www.product-cards.com &copy; all right reserve</p>
+      </div>
+    </footer>
+
     <script src="main.js"></script>
     <script src="homework-7.js"></script>
     <script src="homework-8.js"></script>
     <script type="module" src="homework-9.js"></script>
     <script src="homework-10.js" type="module"></script>
+    <script src="homework-11.js"></script>
   </body>
 </html>
