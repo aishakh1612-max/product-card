@@ -44,7 +44,6 @@ const closeModalBtn = document.getElementById('closeModalBtn');
 if (openModalBtn) {
     openModalBtn.addEventListener('click', () => {
         myModal.open();
-        if (overlay) overlay.classList.add('modal-showed');
     });
 }
 
@@ -52,7 +51,6 @@ if (openModalBtn) {
 if (overlay) {
     overlay.addEventListener('click', () => {
         myModal.close();
-        overlay.classList.remove('modal-showed');
     });
 }
 
@@ -95,6 +93,5 @@ if (registrationForm) {
         // Очищаем форму через метод класса Form и закрываем модалку через Modal
         regForm.reset();
         myModal.close();
-        if (overlay) overlay.classList.remove('modal-showed');
     });
 }
