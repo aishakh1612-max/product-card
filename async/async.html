@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Асинхронность в JS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f4f4f9;
+      }
+      /* Стили для сообщения по центру */
+      #message {
+        font-size: 20px;
+        color: #555;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      /* Контейнер для карточек */
+      #cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        max-width: 800px;
+        margin-bottom: 20px;
+      }
+      /* Сама карточка пользователя */
+      .card {
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        position: relative;
+      }
+      .card h3 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        color: #333;
+      }
+      .card p {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #666;
+      }
+      /* Кнопка удаления одной карточки */
+      .delete-btn {
+        background-color: #9978b5;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      .delete-btn:hover {
+        background-color: #960e0e;
+      }
+      /* Панель управления общими кнопками */
+      .controls {
+        display: flex;
+        gap: 10px;
+      }
+      .controls button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #ed80ac;
+        color: white;
+      }
+      .controls button:hover {
+        background-color: #b22768;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Сюда выводим "Данные загружаются" или "Ошибка" -->
+    <div id="message">Данные загружаются</div>
+
+    <!-- Сюда рендерим карточки пользователей -->
+    <div id="cards-container"></div>
+
+    <!-- Кнопки управления -->
+    <div class="controls">
+      <button id="get-all-btn">Получить все карточки</button>
+      <button id="delete-all-btn">Удалить все карточки</button>
+    </div>
+
+    <script src="async.js"></script>
+  </body>
+</html>
