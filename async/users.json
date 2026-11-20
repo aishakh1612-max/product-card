@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Аиша",
+      "surname": "Хази",
+      "email": "aisha@example.com",
+      "age": 17,
+      "hobbie": "reading",
+      "profession": "student"
+    },
+    {
+      "id": 2,
+      "name": "Амина",
+      "surname": "Хази",
+      "email": "amina@example.com",
+      "age": 15,
+      "hobbie": "painting",
+      "profession": "student"
+    },
+    {
+      "id": 3,
+      "name": "Мира",
+      "surname": "Хази",
+      "email": "mira@example.com",
+      "age": 40,
+      "hobbie": "cooking",
+      "profession": "doctor"
+    }
+  ]
+}
